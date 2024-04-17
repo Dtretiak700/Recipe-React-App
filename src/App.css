@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  color: #12372A;
+}
+
+.cuisine-title {
+  font-family: "Open Sans", sans-serif;
+  color: #12372A;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #FBFADA;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 24px;
+  color: #12372A;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.recipes-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(173,188,159,0.7);
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 20px 30px 20px;
+}
+
+.cuisine-btn {
+  background-color: #FBFADA;
+  color: #436850;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #436850;
+  color: #FBFADA;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  margin-left: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: #12372A;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.image {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.list-style {
+  width: 300px;
+  text-align: left;
+  background-color: #FBFADA;
+  border-radius: 10px;
+}
+
+.text-title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.info-container {
+  width: 300px;
+  text-align: left;
+  background-color: #ADBC9F;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-info {
+  font-family: "Open Sans", sans-serif;
+  color: #12372A;
+  font-size: 18px;
+}
+
+
+
+
+
